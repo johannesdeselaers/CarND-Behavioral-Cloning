@@ -27,7 +27,7 @@ Then I finetuned the model using a much lower learning rate of 0.0001 for anothe
 ### Model Architecture
 
 The model that I implemented roughly follows the architecture from the recommended [paper](http://images.nvidia.com/content/tegra/automotive/images/2016/solutions/pdf/end-to-end-dl-using-px.pdf) by Nvidia. However, the layer input sizes are adjusted according to the different image resolution of the images fed into the network. Also, I added additional dropout layers after each of the fully connected layers to prevent overfitting.
-<img src="https://github.com/johannesdeselaers/CarND-Behavioral-Cloning/blob/master/images/architecture.png" width="200">
+<img src="https://github.com/johannesdeselaers/CarND-Behavioral-Cloning/blob/master/images/architecture.png" width="600">
 
 Specifically, the layers are configured as follows:
 
