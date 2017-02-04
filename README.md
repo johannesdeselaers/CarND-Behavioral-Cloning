@@ -112,12 +112,21 @@ I personally believe the data collection was the most crucial step to success in
 I collected data in two ways:
 
 - Centerline Driving: as a baseline, I recorded a few laps of driving with an effort to maintain the car in the center of the lane as much as possible. Here is an example (before downsampling):
-- ![centerline driving](images/centerline.jpg)
+ ![centerline driving](images/centerline.jpg)
 - Recovery Driving: driving from either the left or the right side of the road back to the center of the road (not recording the inverser direction, i.e. when the car leaves the center of the road). Here are some examples:
-- 
-recovery driving, left side: ![recovery driving, left side](images/recovery_left.jpg)
-recovery driving, right side: ![recovery driving, right side](images/recovery_right.jpg)
-recovery driving, right side with red-white markings ![recovery driving, right side with red-white markings](images/recovery_right2.jpg)
+
+
+recovery driving, left side:
+
+![recovery driving, left side](images/recovery_left.jpg)
+
+recovery driving, right side: 
+
+![recovery driving, right side](images/recovery_right.jpg)
+
+recovery driving, right side with red-white markings 
+
+![recovery driving, right side with red-white markings](images/recovery_right2.jpg)
 
 
 From the recordings, I removed about 70% of the images with a steering angle near zero in order to increase the proportion of images with non-zero steering angles. (I found there to be a relatively narrow balance between keeping to many zero-steering images and retaining to few of these images. Keeping to many zero-steering images led to the vehicle driving off-track in sharper corners more easily, while keeping too few zero-steering images led to the vehicle "bouncing" between the left and right markings. The final dataset consistet of around 50,000 images.
