@@ -1,0 +1,6 @@
+data/*
+simulator/*
+simulator_beta/*
+*.mov
+*.DS_Store
+.ipynb_checkpoints/*
